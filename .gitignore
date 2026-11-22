@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv/
+
+# Audio / video / generated media (large, and music is copyrighted)
+*.mp3
+*.wav
+*.mp4
+separated/
+reconstructed_audio/
+spectogram_recovery/
+comparison_plots/
+kmeans_verses/
+agglomerative_verses/
+
+# Notebooks (huge outputs) and other files
+*.ipynb
+.ipynb_checkpoints/
+*.pdf
